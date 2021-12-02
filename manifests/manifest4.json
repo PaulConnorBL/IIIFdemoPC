@@ -1,0 +1,153 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://PaulConnorBL.github.io/IIIFdemoPC/manifests/manifest4.json",
+  "@type" : "sc:Manifest",
+  "label" : "4 Language maps of Lublin Province",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "4 maps from ww1",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "BL Europeana",
+  "sequences" : [ {
+    "@id" : "http://a5d4e72e-b2b7-43da-ac4a-571c571b402a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://da181f6e-00e6-46ee-947c-829d59bcab0c",
+      "@type" : "sc:Canvas",
+      "label" : "recto unframed",
+      "height" : 6496,
+      "width" : 5430,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0b156000-3de8-4573-aaeb-50263750e584",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000001/full/full/90/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6496,
+          "width" : 5430
+        },
+        "on" : "http://da181f6e-00e6-46ee-947c-829d59bcab0c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://721b6aab-4fcf-4fc0-9b1d-7b2025003f24",
+      "@type" : "sc:Canvas",
+      "label" : "recto 2",
+      "height" : 6496,
+      "width" : 5430,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://dd4f365c-b0cc-4956-b212-af0fc5f40523",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000009/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000009",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6496,
+          "width" : 5430
+        },
+        "on" : "http://721b6aab-4fcf-4fc0-9b1d-7b2025003f24"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7b5b355c-43e1-42a9-9f6a-2b2de3a457d9",
+      "@type" : "sc:Canvas",
+      "label" : "recto 3",
+      "height" : 6496,
+      "width" : 5430,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://aae443f0-3a53-40e3-ae29-11d2e2adb6a8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000002/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000002",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6496,
+          "width" : 5430
+        },
+        "on" : "http://7b5b355c-43e1-42a9-9f6a-2b2de3a457d9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://38111881-32bc-4ce0-9db0-3bdaec90fc04",
+      "@type" : "sc:Canvas",
+      "label" : "recto 4",
+      "height" : 6496,
+      "width" : 5430,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://599ee4d7-8422-4c34-9c50-957e31c6bd96",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000003/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000003",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6496,
+          "width" : 5430
+        },
+        "on" : "http://38111881-32bc-4ce0-9db0-3bdaec90fc04"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/r0",
+    "@type" : "sc:Range",
+    "label" : "Table of Contents",
+    "members" : [ {
+      "@id" : "http://example.org/iiif/book1/range/r1",
+      "@type" : "sc:Range",
+      "label" : "Introduction"
+    } ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r1",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://da181f6e-00e6-46ee-947c-829d59bcab0c" ]
+  } ]
+}
