@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://PaulConnorBL.github.io/IIIFdemoPC/manifests/manifest3.json",
     "label" : "4 Language maps of Lublin Province"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://PaulConnorBL.github.io/IIIFdemoPC/manifests/manifest4.json",
+    "label" : "4 Language maps of Lublin Province"
   } ]
 }
