@@ -29,7 +29,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000001/full/full/0/default.jpg",
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523469.0x000001/full/full/90/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "service" : {
