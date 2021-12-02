@@ -1,0 +1,66 @@
+{
+  "id" : "https://PaulConnorBL.github.io/IIIFdemoPC/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in PaulConnorBL/IIIFdemoPC project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 640,
+    "id" : "https://PaulConnorBL.github.io/IIIFdemoPC/images/dales/canvas/",
+    "label" : {
+      "none" : [ "dales" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://PaulConnorBL.github.io/IIIFdemoPC/images/dales/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://PaulConnorBL.github.io/IIIFdemoPC/images/dales/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 20,
+              "height" : 15
+            }, {
+              "width" : 40,
+              "height" : 30
+            }, {
+              "width" : 80,
+              "height" : 60
+            }, {
+              "width" : 160,
+              "height" : 120
+            }, {
+              "width" : 320,
+              "height" : 240
+            }, {
+              "width" : 640,
+              "height" : 480
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 640,
+            "@id" : "https://PaulConnorBL.github.io/IIIFdemoPC/images/dales",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 480
+          } ],
+          "format" : "image/jpeg",
+          "width" : 640,
+          "id" : "https://PaulConnorBL.github.io/IIIFdemoPC/images/dales/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 480
+        },
+        "target" : "https://PaulConnorBL.github.io/IIIFdemoPC/images/dales/canvas/"
+      } ]
+    } ],
+    "height" : 480
+  } ]
+}
